@@ -1,0 +1,68 @@
+body{
+    background-size: cover;
+    background-position: center;
+}
+
+.heading {
+    font-size: 25px;
+    margin: 0px;
+    box-shadow: 15px 15px 18px grey;
+
+}
+
+.heading_DIV{
+    float: none;
+    background-color:lightgreen;
+    border-radius: 50px;
+    color: #ff9c5b;
+    padding: 10px 10px 10px 10px;
+    box-shadow: 10px 10px 15px black;
+}
+
+.heading_div22 {
+    background-color: orange;  
+    color: white;
+    width: 70%;
+    border-radius: 70px; 
+}
+.para_question{
+    animation-name: play;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    font-size: 18px;
+}
+@keyframes play{
+    1%{
+        color: blue;
+    }
+    25%{
+        color: turquoise;
+    }
+    50%{
+        color: white;
+            }
+    75%{
+        color:pink
+    }
+    100%{
+        color: aqua;
+    }
+}
+
+.copy_right_footer{
+    position: fixed;
+    color: white;
+    bottom: 0;
+    font-size: 20px;
+    background-color: #008000;
+    width: 100%;
+    text-align: center;
+}
+
+canvas{
+    box-shadow: 20px 20px 18px aqua;
+    border: black 3px dashed;
+    margin-top: 150px;
+    background-color: blue;
+    border-radius: 70px;
+}
